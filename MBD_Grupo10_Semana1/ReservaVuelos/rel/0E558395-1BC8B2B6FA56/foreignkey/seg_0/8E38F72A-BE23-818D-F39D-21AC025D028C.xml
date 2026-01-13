@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8E38F72A-BE23-818D-F39D-21AC025D028C" containerWithKeyObject="CD8683BB-4CAA-79C3-9D19-735DF78BC168" localFKIndex="39CB7968-CA83-FF22-059C-4343F9B78C7D" name="RESERVA_VUELO_FK">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>0599C65B-BDC0-BCE5-964B-0ABD41C1C5DF</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<referredTableLongName>VUELO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D2A5D813-A375-E45D-20FB-0CD958B22161</referredTableID>
+<keyObject>0EF9F0AB-CDE6-CECF-F8E5-7625E9079579</keyObject>
+<referredKeyID>0EF9F0AB-CDE6-CECF-F8E5-7625E9079579</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numeroVuelo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

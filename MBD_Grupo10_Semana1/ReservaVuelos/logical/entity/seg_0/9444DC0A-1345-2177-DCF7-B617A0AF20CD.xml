@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9444DC0A-1345-2177-DCF7-B617A0AF20CD" name="RESERVA">
+<createdBy>msuarez</createdBy>
+<createdTime>2026-01-07 18:19:48 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_Reserva" id="7D3F45A5-D67B-13F1-7121-1412F4A8A002">
+<createdBy>msuarez</createdBy>
+<createdTime>2026-01-08 11:38:19 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroReserva" id="2878DBE6-6454-DC4A-7904-729CB3E008BA">
+<createdBy>msuarez</createdBy>
+<createdTime>2026-01-07 18:19:55 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaReserva" id="9E511600-5795-2BE3-FA31-BE15E095B66F">
+<createdBy>msuarez</createdBy>
+<createdTime>2026-01-07 18:21:02 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaVuelo" id="7497A6D9-3E25-3245-525C-E4A9A47443EB">
+<createdBy>msuarez</createdBy>
+<createdTime>2026-01-07 18:22:41 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="00BCA84A-2B92-1D03-5B3C-3398479D1B62">
+<createdBy>msuarez</createdBy>
+<createdTime>2026-01-07 18:23:08 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroVuelo" id="27475237-EA88-FEDC-268B-22E239B2ACBC">
+<createdBy>msuarez</createdBy>
+<createdTime>2026-01-07 18:42:59 UTC</createdTime>
+<generatorID>0599C65B-BDC0-BCE5-964B-0ABD41C1C5DF</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<referedAttribute>1AA288C7-B60B-C463-1BAD-A8E311A05C49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Empleado" id="71C96F75-0DE6-5939-A3BA-6BF9E34C78EC">
+<createdBy>msuarez</createdBy>
+<createdTime>2026-01-07 19:07:31 UTC</createdTime>
+<generatorID>5730D82E-7C05-2502-5C76-C88E7E82AE5A</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<referedAttribute>BB54F3E5-45A2-B0BB-D0E9-1300324A7064</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Pasajero" id="0BCB2D3E-EB5C-FD49-D9B5-D2E55DA2F093">
+<createdBy>msuarez</createdBy>
+<createdTime>2026-01-08 11:34:48 UTC</createdTime>
+<generatorID>F6982C17-26E6-7E40-3CCC-4C7665CF40DF</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<referedAttribute>BBA49A8D-B1A4-00AD-5D74-BDAA3FCE68CB</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7821B052-F074-3479-7C19-A61780E1A646" name="RESERVA PK">
+<createdBy>msuarez</createdBy>
+<createdTime>2026-01-07 18:21:28 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2878DBE6-6454-DC4A-7904-729CB3E008BA</attributeRef>
+<attributeRef>71C96F75-0DE6-5939-A3BA-6BF9E34C78EC</attributeRef>
+<attributeRef>0BCB2D3E-EB5C-FD49-D9B5-D2E55DA2F093</attributeRef>
+<attributeRef>27475237-EA88-FEDC-268B-22E239B2ACBC</attributeRef>
+<attributeRef>7D3F45A5-D67B-13F1-7121-1412F4A8A002</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

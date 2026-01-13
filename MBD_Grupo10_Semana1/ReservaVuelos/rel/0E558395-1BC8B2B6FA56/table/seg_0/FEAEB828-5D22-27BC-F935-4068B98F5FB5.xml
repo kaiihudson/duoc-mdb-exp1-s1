@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEAEB828-5D22-27BC-F935-4068B98F5FB5" name="PASAJERO">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>0666ED91-1592-8A46-9BD3-327A9767D443</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_Pasajero" id="AE4812C8-67ED-A5CE-35CF-B6D4C026386E">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>BBA49A8D-B1A4-00AD-5D74-BDAA3FCE68CB</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeroPasaporte" id="6542EE5C-F5D6-790C-57B9-4D32C3FA7728">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>9D15F605-40C0-208D-8780-4951BC8B2C24</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreCompleto" id="9C8507FF-CE0F-52FB-DD85-7D77A47B076A">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>9BC096F6-612E-4CE2-61BA-191342C042AB</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaNacimiento" id="69E8CABE-FE4E-F28B-2FE5-C88DDF908042">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>7CB192CD-BA80-9E92-ECF5-3F3C835FBD18</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="4031F392-47DB-0B2E-D445-3D7245602E89">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>2465D25D-74CD-3D2D-F7F0-72D68E197226</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="EEF9BA38-0BC0-61E6-A443-958931882BD6">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>859C87A9-8020-A3BF-CD1C-5AB3F7783532</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefonoEmergencia" id="C8C8B7ED-5856-E8DC-179F-27A44E83D7DB">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>D281ED7B-6503-A1A4-B991-3856FA32A4FF</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9EBE996A-2E97-84DD-55B1-726089E0362C" name="PASAJERO_PK">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>3E21D682-904C-76C8-5F0F-93E33C19DBC6</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE4812C8-67ED-A5CE-35CF-B6D4C026386E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

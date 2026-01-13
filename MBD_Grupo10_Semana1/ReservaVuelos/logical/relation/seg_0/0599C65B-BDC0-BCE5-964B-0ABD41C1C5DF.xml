@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Viajesv2" directorySegmentName="seg_0" id="0599C65B-BDC0-BCE5-964B-0ABD41C1C5DF">
+<createdBy>msuarez</createdBy>
+<createdTime>2026-01-07 18:42:59 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<sourcePk>7C34B11B-D866-38B8-9A1A-5CBE633858B0</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>contiene</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C816D4E2-ECB7-3F47-0929-4AD894BFB0DD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9444DC0A-1345-2177-DCF7-B617A0AF20CD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Compras" directorySegmentName="seg_0" id="F6982C17-26E6-7E40-3CCC-4C7665CF40DF">
+<createdBy>msuarez</createdBy>
+<createdTime>2026-01-07 18:41:16 UTC</createdTime>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<engineerTo>
+<item key="0E558395-F248-1744-4966-1BC8B2B6FA56" value="true"/>
+</engineerTo>
+<sourcePk>3E21D682-904C-76C8-5F0F-93E33C19DBC6</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>multiples</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0666ED91-1592-8A46-9BD3-327A9767D443</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9444DC0A-1345-2177-DCF7-B617A0AF20CD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

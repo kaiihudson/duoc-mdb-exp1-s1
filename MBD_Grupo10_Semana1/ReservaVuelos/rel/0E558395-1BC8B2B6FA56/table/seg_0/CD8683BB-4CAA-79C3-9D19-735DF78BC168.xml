@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD8683BB-4CAA-79C3-9D19-735DF78BC168" name="RESERVA">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>9444DC0A-1345-2177-DCF7-B617A0AF20CD</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_Reserva" id="C132A3E8-E76E-C7CB-D32E-6D77BE8E1E12">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>7D3F45A5-D67B-13F1-7121-1412F4A8A002</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeroReserva" id="243BCAD9-8FE0-4406-4261-4B4284592975">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>2878DBE6-6454-DC4A-7904-729CB3E008BA</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaReserva" id="96E8723F-B5A8-E309-7A7D-792A8ADAB0C9">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>9E511600-5795-2BE3-FA31-BE15E095B66F</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaVuelo" id="2E62CC4E-E0D2-DF7B-52C7-AD4B34519743">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>7497A6D9-3E25-3245-525C-E4A9A47443EB</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="C0E5AAFE-B26D-7FBB-F4D0-E913F8546096">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>00BCA84A-2B92-1D03-5B3C-3398479D1B62</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VUELO_numeroVuelo" id="EA344100-6B6C-5327-6F56-302CEAFFC599">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>27475237-EA88-FEDC-268B-22E239B2ACBC</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E38F72A-BE23-818D-F39D-21AC025D028C" referredColumn="15963A70-0D20-8914-6C27-EDA804987D08"/>
+</associations>
+</Column>
+<Column name="EMPLEADO_id_Empleado" id="8B015B11-42A2-E186-7F5B-81CD6A3DAAF5">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>71C96F75-0DE6-5939-A3BA-6BF9E34C78EC</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF0D4BF8-48ED-F96B-EC14-C99D5BFBD4E7" referredColumn="B21DC3C7-CEA5-C757-FF05-914A63F704D0"/>
+</associations>
+</Column>
+<Column name="PASAJERO_id_Pasajero" id="BC708ED5-B9AB-58F1-C081-1CC0C64C9116">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>0BCB2D3E-EB5C-FD49-D9B5-D2E55DA2F093</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0503FA8E-CC9A-7199-7408-6710FF1CC196" referredColumn="AE4812C8-67ED-A5CE-35CF-B6D4C026386E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B686A35-4613-A0F2-BF62-409087399E25" name="RESERVA_PK">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>7821B052-F074-3479-7C19-A61780E1A646</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="243BCAD9-8FE0-4406-4261-4B4284592975"/>
+<colUsage columnID="8B015B11-42A2-E186-7F5B-81CD6A3DAAF5"/>
+<colUsage columnID="BC708ED5-B9AB-58F1-C081-1CC0C64C9116"/>
+<colUsage columnID="EA344100-6B6C-5327-6F56-302CEAFFC599"/>
+<colUsage columnID="C132A3E8-E76E-C7CB-D32E-6D77BE8E1E12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9D08787-6BCA-498E-D1F9-377F64F0258B" name="RESERVA_PASAJERO_FK">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>F6982C17-26E6-7E40-3CCC-4C7665CF40DF</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC708ED5-B9AB-58F1-C081-1CC0C64C9116"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="034A7086-BBC4-2061-B6C8-2D3C3A96C561" name="RESERVA_EMPLEADO_FK">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>5730D82E-7C05-2502-5C76-C88E7E82AE5A</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B015B11-42A2-E186-7F5B-81CD6A3DAAF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39CB7968-CA83-FF22-059C-4343F9B78C7D" name="RESERVA_VUELO_FK">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>0599C65B-BDC0-BCE5-964B-0ABD41C1C5DF</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA344100-6B6C-5327-6F56-302CEAFFC599"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

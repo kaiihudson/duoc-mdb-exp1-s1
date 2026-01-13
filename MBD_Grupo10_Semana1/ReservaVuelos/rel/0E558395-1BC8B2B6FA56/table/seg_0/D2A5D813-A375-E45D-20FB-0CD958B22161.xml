@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2A5D813-A375-E45D-20FB-0CD958B22161" name="VUELO">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>C816D4E2-ECB7-3F47-0929-4AD894BFB0DD</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numeroVuelo" id="15963A70-0D20-8914-6C27-EDA804987D08">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>1AA288C7-B60B-C463-1BAD-A8E311A05C49</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaDespegue" id="CF384121-C085-B2D5-6578-ED578015C4A5">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>BC445671-CE7D-681B-49A4-14310090981B</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaSalida" id="37E0D092-D509-1D62-E0BE-22845FE79D6C">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>07054EAA-2D1C-0B62-1079-9960C16A95DB</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaLlegada" id="772F3CDB-846E-71F7-7AF5-67BA280C9B16">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>D60F461A-6ABE-39F6-6C62-1B8B7CEBB160</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaLlegada" id="A440CFD8-27DE-8CD7-0728-CFC65FC206B3">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>9D199330-FC79-3124-3F92-75646627AFE3</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EF9F0AB-CDE6-CECF-F8E5-7625E9079579" name="VUELO_PK">
+<createdBy>Eugenio</createdBy>
+<createdTime>2026-01-09 13:33:00 UTC</createdTime>
+<generatorID>7C34B11B-D866-38B8-9A1A-5CBE633858B0</generatorID>
+<ownerDesignName>ReservaVuelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15963A70-0D20-8914-6C27-EDA804987D08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
